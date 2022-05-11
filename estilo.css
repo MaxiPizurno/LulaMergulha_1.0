@@ -1,0 +1,170 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0f1f16;
+}
+.background{
+    background-color:#bdefde;
+    height: 800px;
+}
+
+
+/* Estilo del header */
+
+.encabezado {
+    background-color: #e3f6ee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textoheader{
+    display: flex;
+    padding: auto;
+    margin-left: 2px;
+}
+.lulalogo{
+        display: flex;
+        justify-content: right;
+        height: 80px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        
+}
+
+.lula{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding-top: 0;
+    font-size: 80px;
+    color: #175a44;
+    display: inline-block;
+    padding: auto;
+}
+.mergulha{
+    display: flex;
+    margin-left:0px;
+    margin-top: 0;
+    color: #5b8878;
+    margin-bottom: 1px;
+    font-size: 80px;
+    padding: auto;
+    }
+.homemadefood{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 52;
+    margin-bottom: 1px;
+    color: #84a499;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: auto;
+}
+    
+
+
+/* Estilo del NAV */
+
+.navbar{
+    height: 50px;
+    margin-top: -18px;
+    font-size: 18px;
+    background-color: #6fc8aa;
+    color:#5b8878;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.logo{
+    font-size: 25px;
+    margin-right: -50px;
+    font-weight: bolder;
+    color: #5b8878;
+}
+
+.list{
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+/*ANIMACION RESPONSIVE DEL NAV
+
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items:center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    
+}
+*/
+
+/* Estilo del contenido de la pagina productos*/
+
+.contenido{
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+}
+.contenido h3{
+    color: #3f5f54;
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 1px;
+
+}
+.contenido p{
+    width: 350px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #175a44;
+}
+.contenido img{
+    
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-style: solid;
+    border-width:0.4px;
+    opacity: 0.85;
+    transition:transform .75s;
+}
+
+
+.contenido img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Estilo del footer */
+
+.piedepagina{
+    margin-top: 150px;
+    text-align: center;
+}
